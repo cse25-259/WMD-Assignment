@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mind At Ease</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+/* HEADER */
+header {
+    display: flex;
+	flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    background-color: #0a0a0a;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 0;
+    color: #ff00ff; /* neon pink */
+}
+
+.header-text p {
+    margin: 0;
+    color: #b266ff; /* neon purple */
+    font-size: 13px;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    padding: 5px;
+    background-color: #111;
+    color: #b266ff;
+}
+
+/* GRID */
+.container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3, 1fr;
+    gap: 5px;
+    padding: 8px;
+    height: auto;
+}
+
+/* SECTIONS */
+.section {
+    background-color: #111;
+    border: 1px solid #ff00ff;
+    padding: 8px;
+    font-size: 12px;
+    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.section h2 {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #ff00ff;
+}
+
+/* IMAGES */
+.section img {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* INPUT */
+input, textarea {
+    width: 100%;
+    padding: 4px;
+    font-size: 11px;
+    background: black;
+    color: white;
+    border: 1px solid #b266ff;
+}
+
+button {
+    background: #ff00ff;
+    color: black;
+    border: none;
+    padding: 5px;
+    font-size: 11px;
+}
+
+/* FOOTER */
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 11px;
+    padding: 5px;
+    background-color: #0a0a0a;
+    color: #b266ff;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+ <img src="https://thumbs.dreamstime.com/b/purple-neon-sign-depicting-human-brain-glowing-black-background-336582269.jpg?w=768" class="logo"> <!-- ✅ your logo stays -->
+
+    <div class="header-text">
+        <h1>Mind At Ease</h1>
+        <p>Where music meets mindfulness</p>
+    </div>
+</header>
+
+<nav>
+    Home | About | Mental Health | Tips | Feedback
+</nav>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Home</h2>
+        <p>Discover a calm space where music and mindfulness improve your well-being.</p>
+        <img src="https://images.pexels.com/photos/8172721/pexels-photo-8172721.jpeg">
+    </div>
+
+    <div class="section">
+        <h2>About Us</h2>
+        <p>We promote mental wellness through music, mindfulness, and self-care.</p>
+        <img src="https://images.pexels.com/photos/3554376/pexels-photo-3554376.jpeg">
+    </div>
+
+    <div class="section">
+        <h2>Mental Health</h2>
+        <p>Learn about anxiety, PTSD, OCD and coping strategies.</p>
+        <img src="https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg">
+    </div>
+
+    <div class="section">
+        <h2>Tips</h2>
+        <p>Practice breathing, journaling, meditation, and relaxing music.</p>
+        <img src="https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg">
+    </div>
+
+    <div class="section">
+        <h2>Feedback</h2>
+        <input type="text" placeholder="Name">
+        <textarea placeholder="Message"></textarea>
+        <button>Submit</button>
+    </div>
+
+    <div class="section">
+        <h2>Mission</h2>
+        <p>Helping people find peace through mindfulness and music.</p>
+        <img src="https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg">
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Mind At Ease | Mental Health Awareness Hub
+</footer>
+
+</body>
+</html>  
