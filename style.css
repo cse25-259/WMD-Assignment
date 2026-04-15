@@ -49,17 +49,13 @@ nav {
     background-color: #111;
     color: #b266ff;
 }
-
-/* GRID */
-.container {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3, 1fr;
-    gap: 5px;
-    padding: 8px;
-    height: auto;
+nav a {
+    color: #b266ff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
 }
+
 
 /* SECTIONS */
 .section {
