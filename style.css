@@ -14,10 +14,8 @@ header {
 }
 
 .logo {
-     min-width: 80px;
-    max-width: 120px;
-    min-height: 80px;
-    max-height: 120px;
+    max-width: 150px;
+    max-height: 150px;
     margin-right: 20px;
     background-color: #a56cc1;
 
