@@ -34,8 +34,7 @@ header p {
     color:#a56cc1
 }
 
-.header h1,
-header p{
+.headergroup{
     display: flex;
     flex-direction: column;
     justify-content: center;
