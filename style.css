@@ -6,35 +6,37 @@ body {
 }
 
 header {
-    text-align: center;
     background: white;
     color: #333333;
     padding: 40px 20px;
+    max-height: 150px;
 }
 
-header img {
-    display: block;
-    margin: 0 auto 10px;
-    min-width: 100px;
-    max-width: 150px;
-    min-height: 100px;
-    max-height: 150px;
-    background-color: #B5B5B5;
+.logo {
+     min-width: 80px;
+    max-width: 120px;
+    min-height: 80px;
+    max-height: 120px;
+    margin-right: 20px;
+    background-color: #a56cc1;
+
 }
 
 header h1 {
     margin: 0;
     font-size: 40px;
+    
 }
 
 header p {
     font-style: italic;
     font-size: 18px;
+    color:#a56cc1
 }
 
 /* Navigation */
 nav {
-    text-align: center;
+    text-align: right;
     background-color: #fff;
     padding: 10px 0;
 }
