@@ -73,6 +73,57 @@ nav a:hover {
   max-width: 60%;
 }
 
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+
+}
+
+.about-page .intro {
+  flex: 1;
+  max-width: 60%;
+}
+
+.mental-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.mental-page .intro {
+  flex: 1;
+  max-width: 60%;
+}
+
+.tips-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+
+}
+
+.tips-page .intro {
+  flex: 1;
+  max-width: 60%;
+}
+
+.feedback-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+
+}
+
+.feedback-page .intro {
+  flex: 1;
+  max-width: 60%;
+}
+
 
 main {
   max-width: 1000px;
@@ -108,21 +159,16 @@ li {
 }
 
 /* ===== Aside Image Styling ===== */
+
 aside img {
-  margin: 1rem auto;
+  display: block;
+  float: right;              /* floats image to the right */
+  margin: 0 0 1rem 1rem;     /* spacing around image */
   padding: 0.75rem;
-   display: flex;
-  justify-content: flex-end; /* pushes image to the right */
-    align-items: flex-start; /* aligns image to the top */
 
-
-
-  /* Background and content colors */
-  background-color: #f3e5f5;   /* soft lavender background */
-  color: #333;                 /* text/content color */
-
-  /* Borders and rounding */
-  border: 2px solid #ba68c8;   /* purple accent border */
+  /* Background and border */
+  background-color: #f3e5f5; /* soft lavender */
+  border: 2px solid #ba68c8; /* purple accent */
   border-radius: 12px;
 
   /* Size constraints */
@@ -135,8 +181,18 @@ aside img {
   width: 100%;
   height: auto;
 
-  /* Subtle shadow for depth */
+  /* Subtle shadow */
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* ===== Responsive Adjustment ===== */
+@media (max-width: 768px) {
+  aside img {
+    float: none;             /* remove float on small screens */
+    margin: 1rem auto;       /* center image */
+    display: block;
+    max-width: 80%;
+  }
 }
 
 /* ===== Page-specific variations ===== */
