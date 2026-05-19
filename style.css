@@ -91,7 +91,7 @@ background: #737610;
 }
 
 
-.home-page {
+.main-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -99,62 +99,10 @@ background: #737610;
 
 }
 
-.home-page .intro {
+.main-content .intro {
   flex: 1;
   max-width: 60%;
 }
-
-.about-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem;
-
-}
-
-.about-page .intro {
-  flex: 1;
-  max-width: 60%;
-}
-
-.mental-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem;
-}
-
-.mental-page .intro {
-  flex: 1;
-  max-width: 60%;
-}
-
-.tips-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem;
-
-}
-
-.tips-page .intro {
-  flex: 1;
-  max-width: 60%;
-}
-
-.feedback-page {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem;
-
-}
-
-.feedback-page .intro {
-  flex: 1;
-  max-width: 60%;
-}
-
 
 /* ===== Aside Image Styling ===== */
 
