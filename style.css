@@ -58,11 +58,24 @@ img {
   height: auto;
 }
 
-main img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+.mental-page {
+  display: flex;
+  flex-direction: column; /* stack conditions vertically */
+  gap: 20px;
+}
+
+.mental-page {
+  display: flex;
+  align-items: flex-start; /* image + text side by side */
+  gap: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.mental-page img {
+  width: 80px;   /* control image size */
+  height: auto;
+  border-radius: 6px;
 }
 
 
@@ -71,7 +84,8 @@ background: rgba(0,0,0,0.6);
 margin:30px;
 padding:25px;
 border-radius:12px;
-box-shadow:0px 5px 20px rgba(255,0,200,0.4);   
+box-shadow:0px 5px 20px rgba(255,0,200,0.4);  
+
 }
 
 footer{
