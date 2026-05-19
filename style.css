@@ -19,13 +19,8 @@ background:rgba(0,0,0,0.4);
 color:white;
 text-align:center;
 padding:25px;
-backdrop-filter: blur(10px);  
-display:flex; /* Use flexbox for easier layout */
-align-items:center; /* Center items vertically */  
+backdrop-filter: blur(10px);    
 }
-
-
-
 
 nav{
 background: black; 
@@ -64,19 +59,17 @@ img {
 }
 
 .mental-page {
-    display: flex;
-    flex-wrap: wrap; /* Allow images to wrap in case of long text or small screens */
-    gap: 15px;
-    padding: 15px;
-    border-radius: 8px;
+  display: flex;
+  flex-direction: column; /* stack conditions vertically */
+  gap: 20px;
 }
 
-.mental-section {
-    display: flex;
-    flex-wrap: wrap; /* Allow images to wrap in case of long text or small screens */
-    gap: 15px;
-    padding: 15px;
-    border-radius: 8px;
+.mental-page {
+  display: flex;
+  align-items: flex-start; /* image + text side by side */
+  gap: 15px;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .mental-page img {
@@ -84,6 +77,7 @@ img {
   height: auto;
   border-radius: 6px;
 }
+
 
 section{
 background: rgba(0,0,0,0.6); 
@@ -151,4 +145,4 @@ background: #737610;
     display: block;
     max-width: 80%;
   }
-}
+}  
