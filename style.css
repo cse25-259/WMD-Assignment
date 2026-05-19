@@ -60,6 +60,20 @@ nav a:hover {
     color: #a56cc1;
 }
 
+.home-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+
+}
+
+.home-page .intro {
+  flex: 1;
+  max-width: 60%;
+}
+
+
 main {
   max-width: 1000px;
   margin: 2rem auto;
@@ -130,6 +144,12 @@ aside img {
 aside.home img {
   background-color:  #ede7f6;   /* soft blue */
   border-color: #9575cd;
+   flex: 1;
+  max-width: 35%;
+  min-width: 200px;
+  background-color: #f3e5f5; /* lavender background */
+  border-radius: 12px;
+  padding: 0.5rem;
 }
 
 aside.about img {
