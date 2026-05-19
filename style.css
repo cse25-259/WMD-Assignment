@@ -47,6 +47,24 @@ color:#ff008c;
     margin-top:0;
     background-color: #a56cc1;
 }
+aside img {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;   /* or top: 20px; depending on placement */
+  width: 200px;
+  height: auto;
+
+   min-width: 220px;
+  max-width: 420px;
+  min-height: 160px;
+  max-height: 300px;
+
+  background-color: #f3e5f5; /* soft lavender */
+  border: 2px solid #ba68c8; /* purple accent */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
 
 section{
 background: rgba(0,0,0,0.6); 
@@ -102,33 +120,6 @@ background: #737610;
 .main-content .intro {
   flex: 1;
   max-width: 60%;
-}
-
-/* ===== Aside Image Styling ===== */
-
-aside img {
-  display: block;
-  float: right;              /* floats image to the right */
-  margin: 0 0 1rem 1rem;     /* spacing around image */
-  padding: 0.75rem;
-
-  /* Background and border */
-  background-color: #f3e5f5; /* soft lavender */
-  border: 2px solid #ba68c8; /* purple accent */
-  border-radius: 12px;
-
-  /* Size constraints */
-  min-width: 220px;
-  max-width: 420px;
-  min-height: 160px;
-  max-height: 300px;
-
-  /* Responsive scaling */
-  width: 100%;
-  height: auto;
-
-  /* Subtle shadow */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
 /* ===== Responsive Adjustment ===== */
