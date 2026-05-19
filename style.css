@@ -96,11 +96,12 @@ li {
 /* ===== Aside Image Styling ===== */
 aside img {
   display: block;
+   margin: 0 0 1rem 1rem; /* space between image and text */
   margin: 1rem auto;
   padding: 0.75rem;
-   display: flex;
-  justify-content: flex-end; /* pushes image to the right */
-    align-items: flex-start; /* aligns image to the top */
+  float: right;
+
+  
 
   /* Background and content colors */
   background-color: #f3e5f5;   /* soft lavender background */
