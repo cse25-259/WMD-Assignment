@@ -128,7 +128,8 @@ main {
   margin: 30px auto;
   padding: 25px;
   border-radius: 12px;
-  background: #a56cc1; /* soft pink background */
+  background: #a56cc1 50%; /* soft pink background */
+
   box-shadow:0px 5px 20px rgba(255,0,200,0.4);   
 }
 
