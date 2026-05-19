@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #E8D4F4;
+    overflow: hidden;
 }
 
 header {
@@ -101,7 +102,7 @@ aside img {
    display: flex;
   justify-content: flex-end; /* pushes image to the right */
     align-items: flex-start; /* aligns image to the top */
-    aside img {
+
 
 
   /* Background and content colors */
