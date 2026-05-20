@@ -60,12 +60,6 @@ img {
 
 .mental-page {
   display: flex;
-  flex-direction: column; /* stack conditions vertically */
-  gap: 20px;
-}
-
-.mental-page {
-  display: flex;
   align-items: flex-start; /* image + text side by side */
   gap: 15px;
   padding: 15px;
