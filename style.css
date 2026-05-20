@@ -102,35 +102,6 @@ padding:20px;
 
 }
 
-footer .contact-box {
-  display: inline-block;        /* keeps it neat */
-  padding: 15px 25px;
-  border-radius: 8px;
-  background-color: #1b0633;       /* card background */
-  box-shadow: 0 2px 8px rgba(87, 4, 87, 0.15); /* subtle shadow */
-}
-
-footer .contact-line {
-  margin: 0 0 8px 0;            /* spacing before copyright */
-  font-size: 16px;
-}
-
-footer .contact-line a {
-  color: #6a5acd;               /* lavender accent */
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer .contact-line a:hover {
-  color: #ff69b4;               /* pink hover */
-}
-
-footer .copyright {
-  font-size: 14px;
-  color: #ff66ff;                  
-  margin: 0;
-}
-
 form{
 max-width:600px;
 margin:auto;
