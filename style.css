@@ -98,26 +98,37 @@ footer{
 background: rgba(0,0,0,0.7);  
 color:white;
 text-align:center;
-padding:12px;  
+padding:20px;
+
 }
 
-
-/* First line: contact info side by side */
-.contact-info {
-  display: flex;
-  justify-content: center;     /* center horizontally */
-  gap: 40px;                   /* spacing between items */
-  margin-bottom: 10px;         /* space before copyright */
+footer .contact-box {
+  display: inline-block;        /* keeps it neat */
+  padding: 15px 25px;
+  border-radius: 8px;
+  background-color: #fff;       /* card background */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* subtle shadow */
 }
 
-.contact-info p {
-  margin: 0;
+footer .contact-line {
+  margin: 0 0 8px 0;            /* spacing before copyright */
+  font-size: 16px;
 }
 
-/* Second line: copyright */
-.copyright {
+footer .contact-line a {
+  color: #6a5acd;               /* lavender accent */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .contact-line a:hover {
+  color: #ff69b4;               /* pink hover */
+}
+
+footer .copyright {
   font-size: 14px;
-  color: #960c7a;                
+  color: rgb(255, 0, 140);                  
+  margin: 0;
 }
 
 form{
