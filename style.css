@@ -74,7 +74,7 @@ color:#ff008c;
 }
 
 .video{
-  width:50%;
+  width:60%;
   height: auto;
   margin: 10px 0;
   border-radius: 8px;
@@ -82,8 +82,6 @@ color:#ff008c;
 }
 
 .reminder{
-background: rgba(255,0,200,0.4);
-padding: 20px;
 font-style: italic;
 }
 
