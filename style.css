@@ -106,8 +106,8 @@ footer .contact-box {
   display: inline-block;        /* keeps it neat */
   padding: 15px 25px;
   border-radius: 8px;
-  background-color: #fff;       /* card background */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* subtle shadow */
+  background-color: #1b0633;       /* card background */
+  box-shadow: 0 2px 8px rgba(87, 4, 87, 0.15); /* subtle shadow */
 }
 
 footer .contact-line {
@@ -127,7 +127,7 @@ footer .contact-line a:hover {
 
 footer .copyright {
   font-size: 14px;
-  color: rgb(255, 0, 140);                  
+  color: #ff66ff;                  
   margin: 0;
 }
 
