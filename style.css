@@ -65,17 +65,6 @@ color:#ff008c;
   border-radius: 8px;
 }
 
-
-.mental-section{
-background: url(https://www.bleepstatic.com/content/hl-images/2023/03/03/mental-health.jpg") no-repeat center center ; 
-background-size: cover;
-margin:30px;
-padding:25px;
-border-radius:12px;
-box-shadow:0px 5px 20px rgba(255,0,200,0.4);
-color: white;  
-}
-
 section{
   background: rgba(0,0,0,0.6);
   margin: 30px;
