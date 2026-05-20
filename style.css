@@ -101,6 +101,25 @@ text-align:center;
 padding:12px;  
 }
 
+
+/* First line: contact info side by side */
+footer .contact-info {
+  display: flex;
+  justify-content: center;     /* center horizontally */
+  gap: 40px;                   /* spacing between items */
+  margin-bottom: 10px;         /* space before copyright */
+}
+
+footer .contact-info p {
+  margin: 0;
+}
+
+/* Second line: copyright */
+footer .copyright {
+  font-size: 14px;
+  color: #960c7a;                
+}
+
 form{
 max-width:600px;
 margin:auto;
