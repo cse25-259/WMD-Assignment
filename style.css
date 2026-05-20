@@ -74,8 +74,8 @@ color:#ff008c;
 }
 
 .video{
-  width:60%;
-  height: auto;
+  width:150px;
+  height: 100px;
   margin: 10px 0;
   border-radius: 8px;
   display: block;
