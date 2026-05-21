@@ -40,6 +40,8 @@ color:#ff008c;
     margin-right: 2vw;
     margin-top:0;
     background-color: #a56cc1;
+    border-radius: 10px;
+    padding:5px
   
 }
 
@@ -57,11 +59,16 @@ img[title="Mental Health"] {
   margin: 10px 0;
   border-radius: 8px;
   display: block;   /* ensures they sit inside the flow */
+  background: rgba(255,255,255,0.1); /* subtle background for contrast */
+  padding: 5px; /* space around the image */
 }
 
 .video{
   max-width: 100%;
   margin: 10px 0;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1); /* subtle background for contrast */
+  padding: 5px; /* space around the video */
   display: block;
 }
 
