@@ -4,7 +4,7 @@ margin:0;
 background:
 linear-gradient(135deg,#0f0c29,#302b63,#ff00cc); 
 background-size: 400% 400%; 
-animation: gradientFlow 12s ease infinate;
+animation: gradientFlow 12s ease infinite;
 color:white;
 }
 
@@ -57,25 +57,16 @@ color:#ff008c;
   font-style: italic;
 }
 
-.mental-page img {
-  width: 100%;
+img[title="Mental Health"] {
+  max-width: 100%;
   height: auto;
   margin: 10px 0;
   border-radius: 8px;
   display: block;   /* ensures they sit inside the flow */
 }
 
-.mental-page {
-  display: flex;
-  align-items: flex-start; /* image + text side by side */
-  gap: 15px;
-  padding: 15px;
-  border-radius: 8px;
-}
-
 .video{
-  width:560px;
-  height: 315px;
+  max-width: 100%;
   margin: 10px 0;
   display: block;
 }
