@@ -35,6 +35,7 @@ font-weight:bold;
 }
 
 nav a:hover{
+  background-color: #ff008c;
 color:#ff008c;
 }
 
