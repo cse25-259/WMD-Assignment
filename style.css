@@ -33,10 +33,6 @@ nav a:hover{
 color:#ff008c;
 }
 
-nav a:active{
-  background-color: #ff66ff;
-}
-
 .logo {
     float: left;
     max-width: 20vw;
