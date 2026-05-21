@@ -27,15 +27,15 @@ padding:12px;
 text-align:center;   
 }
 
-nav link{
-color:#ff66ff !important;
+nav a{
+color:#ff66ff;
 margin:15px;
 text-decoration:none;
 font-weight:bold;    
 }
 
-nav link:hover{
-color:#ff008c !important;
+nav a:hover{
+color:#ff008c;
 }
 
 .logo {
