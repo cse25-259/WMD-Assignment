@@ -27,14 +27,14 @@ padding:12px;
 text-align:center;   
 }
 
-nav a{
+nav link{
 color:#ff66ff !important;
 margin:15px;
 text-decoration:none;
 font-weight:bold;    
 }
 
-nav a:hover{
+nav link:hover{
 color:#ff008c !important;
 }
 
