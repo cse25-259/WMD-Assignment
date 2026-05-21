@@ -4,7 +4,6 @@ margin:0;
 background:
 linear-gradient(135deg,#0f0c29,#302b63,#ff00cc); 
 background-size: 400% 400%; 
-animation: gradientFlow 12s ease infinite;
 color:white;
 }
 
