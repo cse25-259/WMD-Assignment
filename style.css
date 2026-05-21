@@ -7,12 +7,6 @@ background-size: 400% 400%;
 color:white;
 }
 
-@keyframes gradientFlow{
-0%{background-position: 0% 50%;}
-50%{background-position: 100% 50%;} 
-100%{background-position: 0% 50%;}   
-}
-
 header{
 background:rgba(0,0,0,0.4);
 color:white;
@@ -41,16 +35,6 @@ color:#ff008c;
 
 nav a:active{
   background-color: #ff66ff;
-}
-nav link{
-color:#ff66ff !important;
-margin:15px;
-text-decoration:none;
-font-weight:bold;    
-}
-
-nav link:hover{
-color:#ff008c !important;
 }
 
 .logo {
@@ -132,18 +116,4 @@ cursor:pointer;
 
 button:hover{
 background: #737610;    
-}
-
-
-.main-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem;
-
-}
-
-.main-content .intro {
-  flex: 1;
-  max-width: 60%;
 }
