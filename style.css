@@ -38,6 +38,17 @@ nav a:hover{
 color:#ff008c;
 }
 
+nav link{
+color:#ff66ff !important;
+margin:15px;
+text-decoration:none;
+font-weight:bold;    
+}
+
+nav link:hover{
+color:#ff008c !important;
+}
+
 .logo {
     float: left;
     max-width: 20vw;
