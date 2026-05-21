@@ -39,6 +39,9 @@ nav a:hover{
 color:#ff008c;
 }
 
+nav a:active{
+  background-color: #ff66ff;
+}
 nav link{
 color:#ff66ff !important;
 margin:15px;
